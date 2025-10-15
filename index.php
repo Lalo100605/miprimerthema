@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- === MENÚ HAMBURGUESA === -->
+    <header class="menu-header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- === POPUP DEL MENÚ === -->
+    <div class="menu-popup" id="menuPopup">
+        <span class="close-popup" id="closePopup">&times;</span>
+        <ul>
+            <li><a href="#proyecto1"><img src="img/proyecto1.jpg" alt=""> Proyecto 01</a></li>
+            <li><a href="#proyecto2"><img src="img/proyecto2.jpg" alt=""> Proyecto 02</a></li>
+            <li><a href="#proyecto3"><img src="img/proyecto3.jpg" alt=""> Proyecto 03</a></li>
+            <li><a href="#proyecto4"><img src="img/proyecto4.jpg" alt=""> Proyecto 04</a></li>
+        </ul>
+    </div>
+
+    <!-- === GRID DE 8 CUADROS === -->
+    <section class="proyectos-grid">
+
+        <!-- Cuadro 1: Texto -->
+        <a href="#proyecto1" class="texto1">
+            <h2>01</h2>
+            <p>PROJECT</p>
+            <svg class="icono-red" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M2 7.8C2 6.11984 2 5.27976 2.32698 4.63803C2.6146 4.07354 3.07354 3.6146 3.63803 3.32698C4.27976 3 5.11984 3 6.8 3H17.2C18.8802 3 19.7202 3 20.362 3.32698C20.9265 3.6146 21.3854 4.07354 21.673 4.63803C22 5.27976 22 6.11984 22 7.8V16.2C22 17.8802 22 18.7202 21.673 19.362C21.3854 19.9265 20.9265 20.3854 20.362 20.673C19.7202 21 18.8802 21 17.2 21H6.8C5.11984 21 4.27976 21 3.63803 20.673C3.07354 20.3854 2.6146 19.9265 2.32698 19.362C2 18.7202 2 17.8802 2 16.2V7.8Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+
+        <!-- Cuadro 2: Imagen -->
+        <div>
+            <img src="img/proyecto1.jpg" alt="Proyecto 1">
+        </div>
+
+        <!-- Cuadro 3: Texto -->
+        <a href="#proyecto2" class="texto2">
+            <h2>02</h2>
+            <p>PROJECT</p>
+            <svg class="icono-red" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M2 7.8C2 6.11984 2 5.27976 2.32698 4.63803C2.6146 4.07354 3.07354 3.6146 3.63803 3.32698C4.27976 3 5.11984 3 6.8 3H17.2C18.8802 3 19.7202 3 20.362 3.32698C20.9265 3.6146 21.3854 4.07354 21.673 4.63803C22 5.27976 22 6.11984 22 7.8V16.2C22 17.8802 22 18.7202 21.673 19.362C21.3854 19.9265 20.9265 20.3854 20.362 20.673C19.7202 21 18.8802 21 17.2 21H6.8C5.11984 21 4.27976 21 3.63803 20.673C3.07354 20.3854 2.6146 19.9265 2.32698 19.362C2 18.7202 2 17.8802 2 16.2V7.8Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+
+        <!-- Cuadro 4: Imagen -->
+        <div>
+            <img src="img/proyecto2.jpg" alt="Proyecto 2">
+        </div>
+
+        <!-- Cuadro 5: Imagen -->
+        <div>
+            <img src="img/proyecto3.jpg" alt="Proyecto 3">
+        </div>
+
+        <!-- Cuadro 6: Texto -->
+        <a href="#proyecto3" class="texto3">
+            <h2>03</h2>
+            <p>PROJECT</p>
+            <svg class="icono-red" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M2 7.8C2 6.11984 2 5.27976 2.32698 4.63803C2.6146 4.07354 3.07354 3.6146 3.63803 3.32698C4.27976 3 5.11984 3 6.8 3H17.2C18.8802 3 19.7202 3 20.362 3.32698C20.9265 3.6146 21.3854 4.07354 21.673 4.63803C22 5.27976 22 6.11984 22 7.8V16.2C22 17.8802 22 18.7202 21.673 19.362C21.3854 19.9265 20.9265 20.3854 20.362 20.673C19.7202 21 18.8802 21 17.2 21H6.8C5.11984 21 4.27976 21 3.63803 20.673C3.07354 20.3854 2.6146 19.9265 2.32698 19.362C2 18.7202 2 17.8802 2 16.2V7.8Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </a>
+
+        <!-- Cuadro 7: Imagen -->
+        <div>
+            <img src="img/proyecto4.jpg" alt="Proyecto 4">
+        </div>
+
+        <!-- Cuadro 8: Texto -->
+        <div class="texto4">
+            <p>Porta non pulvinar neque laoreet suspendisse interdum consectetur libero.</p>
+        </div>
+    </section>
+
+    <!-- === SECCIÓN DE DETALLES DE PROYECTOS === -->
+    <section class="proyectos-detalle">
+
+        <!-- Proyecto 1 -->
+        <article id="proyecto1" class="detalle">
+            <div class="texto">
+                <span class="numero">01</span>
+                <span class="etiqueta">PROJECT</span>
+                <h3>Ready to get <strong>started?</strong></h3>
+                <p>
+                    Article evident arrived express highest men did boy. Mistress sensible entirely am so.
+                    Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+                </p>
+                <ul>
+                    <li>Article evident arrived express highest men did boy</li>
+                    <li>Mistress sensible entirely am so</li>
+                    <li>Quick can manor smart money hopes worth too</li>
+                    <li>Comfort produce husband boy her had hearing</li>
+                </ul>
+            </div>
+            <div class="imagen">
+                <img src="img/proyecto1.jpg" alt="Detalle Proyecto 1">
+            </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article id="proyecto2" class="detalle">
+            <div class="texto">
+                <span class="numero">02</span>
+                <span class="etiqueta">PROJECT</span>
+                <h3>A platform <strong>you can trust</strong></h3>
+                <p>
+                    Article evident arrived express highest men did boy. Mistress sensible entirely am so.
+                    Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+                    The compliance you require, the enterprise features you expect, and the ability to run
+                    wherever you need it – from our managed cloud right through to on-prem installations
+                    for regulated industries.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="img/proyecto2.jpg" alt="Detalle Proyecto 2">
+            </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article id="proyecto3" class="detalle">
+            <div class="texto">
+                <span class="numero">03</span>
+                <span class="etiqueta">PROJECT</span>
+                <h3>For the <strong>whole team</strong></h3>
+                <p>
+                    Article evident arrived express highest men did boy. Mistress sensible entirely am so.
+                    Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+                </p>
+                <ul>
+                    <li>Article evident arrived express highest men did boy</li>
+                    <li>Mistress sensible entirely am so</li>
+                    <li>Quick can manor smart money hopes worth too</li>
+                    <li>Comfort produce husband boy her had hearing</li>
+                </ul>
+            </div>
+            <div class="imagen">
+                <img src="img/proyecto3.jpg" alt="Detalle Proyecto 3">
+            </div>
+        </article>
+
+        <!-- Proyecto 4 -->
+        <article id="proyecto4" class="detalle">
+            <div class="texto">
+                <span class="numero">04</span>
+                <span class="etiqueta">PROJECT</span>
+                <h3>No-code automation for <strong>security teams</strong></h3>
+                <p>
+                    Article evident arrived express highest men did boy. Mistress sensible entirely am so.
+                    Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.
+                    The compliance you require, the enterprise features you expect, and the ability to run
+                    wherever you need it – from our managed cloud right through to on-prem installations
+                    for regulated industries.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="img/proyecto4.jpg" alt="Detalle Proyecto 4">
+            </div>
+        </article>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer class="footer">
+        <p>Sample text. Click to select the Text Element.</p>
+    </footer>
+
+    <!-- === SCRIPT DEL MENÚ === -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuPopup = document.getElementById('menuPopup');
+        const closePopup = document.getElementById('closePopup');
+
+        // Mostrar u ocultar el popup
+        hamburger.addEventListener('click', () => {
+            menuPopup.classList.toggle('visible');
+        });
+
+        // Cerrar popup al hacer clic en la "X"
+        closePopup.addEventListener('click', () => {
+            menuPopup.classList.remove('visible');
+        });
+
+        // Scroll hacia el proyecto seleccionado
+        document.querySelectorAll('.menu-popup a').forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                menuPopup.classList.remove('visible');
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+    
+
+</body>
+
+</html>
